@@ -1,0 +1,29 @@
+.offers_row {
+  margin-top: 0%;
+  display: flex;
+  justify-content: space-between;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  margin: 4% 4%;
+  padding-bottom: 5%;
+  /* margin-top: 5%; */
+
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+@media only screen and (min-width: 1300px) {
+  .offers_row {
+    padding: 0% 5%;
+    padding-bottom: 5%;
+  }
+}
+.offers_row::-webkit-scrollbar {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .offers_row {
+    flex-direction: column;
+  }
+}

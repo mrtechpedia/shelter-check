@@ -1,0 +1,21 @@
+.features_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2.5% 0%;
+  margin-bottom: 1%;
+  background-color: #f4f5f5;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .features_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2.5% 0%;
+    margin: 5%;
+
+    background-color: #f4f5f5;
+  }
+}

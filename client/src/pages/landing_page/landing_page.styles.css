@@ -1,0 +1,56 @@
+.LandingPage {
+  background-image: url("../../assets//landing3.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+.landing_box {
+  width: 450px;
+  height: 570px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  margin-top: 3%;
+  /* padding-top: 5%; */
+}
+.para1 {
+  margin-top: 2%;
+  border-bottom: 1px solid rgb(170, 170, 170);
+  border-top: 1px solid rgb(170, 170, 170);
+}
+.para2 {
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+.logoimg {
+  margin-top: 4%;
+  margin-bottom: 0px;
+}
+
+.btn-grad-landing {
+  background-image: linear-gradient(
+    to right,
+    #649173 0%,
+    #dbd5a4 51%,
+    #649173 100%
+  );
+}
+.btn-grad-landing {
+  margin: auto;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 50px;
+  display: block;
+  width: 270px;
+}
+
+.btn-grad-landing:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}

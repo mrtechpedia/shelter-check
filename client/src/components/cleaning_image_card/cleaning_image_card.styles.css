@@ -1,0 +1,36 @@
+.cleaning_outer {
+  text-align: center;
+}
+
+.cleaning_image_card {
+  width: 270px;
+  border: 0px;
+  transition: 0.4s;
+  background-color: transparent;
+  margin-left: auto;
+  /* margin-right: 15px; */
+}
+
+.cleaning_image_card:hover {
+}
+.cleaning_image {
+  margin: auto;
+  /* width: 260px;
+  height: 170px; */
+  object-fit: contain;
+}
+.cleaning_title {
+  padding-top: 7%;
+  font-size: 15px;
+  color: rgb(97, 97, 97);
+  width: 100%;
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .cleaning_image_card {
+    margin: auto;
+  }
+}

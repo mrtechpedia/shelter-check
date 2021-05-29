@@ -1,0 +1,31 @@
+.nav_else {
+  position: fixed;
+  width: 100%;
+  font-family: "Varela Round", sans-serif;
+  padding: 0.4% 2% 0.5% 2%;
+}
+.nav_else_brand {
+  color: #000000;
+  transition: 0.3s;
+}
+
+.nav_else_brand:hover {
+  color: rgb(79, 79, 79);
+}
+
+.nav_else_link {
+  color: black;
+  text-decoration: none;
+}
+
+.nav_else_link:hover {
+  color: black;
+}
+
+.proff_text_else {
+  color: rgb(124, 124, 124);
+}
+
+.proff_text_else :hover {
+  color: black;
+}

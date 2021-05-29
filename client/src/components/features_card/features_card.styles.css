@@ -1,0 +1,36 @@
+.feature_card {
+  border: none;
+  background: none;
+}
+
+.feature_card_body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.feature_card_image {
+  width: 60px;
+  height: 60px;
+  /* border-radius: 100% !important; */
+}
+
+.feature_card_title_and_text {
+  margin-left: 30px;
+  text-align: left;
+  width: 350px;
+}
+
+.feature_card_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 24px;
+}
+
+.feature_card_text {
+  color: #969696;
+  font-size: 14px;
+  font-family: Open Sans;
+}

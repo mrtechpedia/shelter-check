@@ -1,0 +1,21 @@
+.flex-container {
+  display: flex;
+  /* background-color: DodgerBlue; */
+}
+
+.flex-container > div {
+  /* background-color: #f1f1f1; */
+}
+
+.SalonMainPage {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  background-image: url(../../assets/salonbg2.png);
+  background-size: cover;
+}
+
+@media only screen and (min-width: 1400px) {
+  .SalonMainPage {
+    padding-top: 3%;
+  }
+}

@@ -1,0 +1,35 @@
+.our_services {
+  height: auto;
+  width: 80%;
+  margin: auto;
+  /* margin-top: -24%; */
+  /* z-index: 100; */
+  /* background-color: #fec3c6; */
+  /* background-image: url("../../assets//white2.png"); */
+  background-color: white;
+  /* background-size: contain; */
+
+  border-radius: 20px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.26);
+  padding: 1%;
+  padding-left: 6%;
+  padding-right: 6%;
+  font-size: larger;
+  /* opacity: 98%; */
+  margin-bottom: 6%;
+}
+
+@media only screen and (min-width: 1300px) {
+  .our_services {
+    margin-bottom: 1.2%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .our_services {
+    width: 95%;
+  }
+}

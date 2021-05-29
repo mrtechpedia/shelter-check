@@ -1,0 +1,16 @@
+.login_page {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  padding-top: 30px;
+  background-image: url(../../assets/white4.png);
+  background-size: cover;
+
+  /* background-image: url("../../assets//landing3.jpg");
+  background-size: cover; */
+}
+
+@media only screen and (min-width: 1400px) {
+  .login_page {
+    padding-top: 3%;
+  }
+}

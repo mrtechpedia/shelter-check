@@ -1,0 +1,22 @@
+.icon_row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.icon_row::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (min-width: 1400px) {
+  .icon_row_outer {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+}

@@ -1,0 +1,66 @@
+.nav_home {
+  position: fixed;
+  width: 100%;
+  /* background-color: rgb(177, 177, 177); */
+  font-family: "Varela Round", sans-serif;
+  margin-top: 0%;
+  padding: 0.8% 0.9% 0.8% 2%;
+  z-index: 1;
+  top: 0px;
+  height: 67px;
+}
+
+.nav_home_brand {
+  text-decoration: none;
+  color: #707070;
+  transition: 0.3s;
+  font-family: "Sacramento", cursive;
+  font-size: 35px;
+  padding: 0%;
+  /* font-weight: bold; */
+}
+
+.nav_home_brand:hover {
+  color: rgb(79, 79, 79);
+}
+
+.nav_home_link {
+  color: black;
+  text-decoration: none;
+}
+
+.nav_home_link:hover {
+  color: black;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom center;
+}
+
+.proff_text {
+  color: rgb(124, 124, 124);
+}
+
+.proff_text:hover {
+  color: black;
+}

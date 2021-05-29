@@ -1,0 +1,11 @@
+.SalonBoxRight {
+  position: relative;
+  background-color: #ffe5df;
+  margin-left: auto;
+  background-image: url("../../assets/Brown\ Floral\ Massage\ Gift\ Certificate.png");
+  text-align: center;
+  font-size: 14px;
+  height: 648px;
+  width: 0px;
+  opacity: 90%;
+}

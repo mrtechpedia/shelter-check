@@ -1,0 +1,103 @@
+.CheckoutPage {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  background-image: url(../../assets/joanna-kosinska-78uNJt1kPw8-unsplash.jpg);
+  background-size: contain;
+  font-weight: bold;
+}
+.title {
+  font-family: Sacramento;
+}
+.table {
+  width: 800px;
+  padding: 10px;
+  margin-top: 50px;
+}
+.CheckoutPage .right {
+  flex: 0.75;
+  background-color: rgb(0, 0, 51);
+}
+.CheckoutPage .left {
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 7%;
+}
+.checkout_header {
+  margin-top: 5%;
+  /* display: flex;
+  justify-content: space-between; */
+
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+.checkout_description {
+  margin-top: 5%;
+  /* display: flex;
+  justify-content: space-between; */
+  width: 700px;
+  padding: 10px;
+}
+.total {
+  margin-top: 10%;
+}
+.pay_btn {
+  margin-top: 2%;
+}
+.box {
+  margin-top: 30%;
+  color: rgb(0, 217, 255);
+  text-align: left;
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 11px;
+}
+.sc {
+  border-bottom: 1px solid gray;
+  font-family: Sacramento;
+}
+.pp {
+  border-bottom: 1px solid gray;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .CheckoutPage {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../assets/joanna-kosinska-78uNJt1kPw8-unsplash.jpg);
+    background-size: cover;
+    padding: 0%;
+  }
+  .table {
+    width: auto;
+    padding: 0px;
+    margin-top: 50px;
+    font-size: 9px;
+  }
+  .title {
+    font-family: Sacramento;
+    font-size: 50px;
+  }
+
+  .checkout_header {
+    margin-top: 5%;
+    /* display: flex;
+  justify-content: space-between; */
+    border-bottom: 1px solid gray;
+    padding: 0px;
+  }
+  .checkout_description {
+    margin-top: 5%;
+    /* display: flex;
+  justify-content: space-between; */
+    width: auto;
+    padding: 0px;
+  }
+  .total {
+    margin-top: 10%;
+  }
+}

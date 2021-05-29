@@ -1,0 +1,43 @@
+.appliance_outer {
+  text-align: center;
+}
+
+.appliance_image_card {
+  width: 270px;
+  height: 180px;
+  /* height: 10rem; */
+  border: 0px;
+  background-image: url("../../assets/ribbon.png");
+  background-size: cover;
+  transition: 0.4s;
+  margin-left: auto;
+  border-radius: 0%;
+  /* margin-right: 15px; */
+}
+
+.appliance_image_card:hover {
+  background-image: url("../../assets/ribbonHover.png");
+  background-size: cover;
+}
+.appliance_image {
+  margin: auto;
+  width: 210px;
+  height: 210px;
+  object-fit: contain;
+}
+.appliance_title {
+  padding-top: 7%;
+  font-size: 15px;
+  color: rgb(97, 97, 97);
+  width: 100%;
+  margin-left: auto;
+  /* background-color: rgb(255, 127, 238); */
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .appliance_image_card {
+    margin: auto;
+  }
+}

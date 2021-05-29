@@ -1,0 +1,22 @@
+.flex-containerd {
+  display: flex;
+  /* background-color: DodgerBlue; */
+}
+
+.flex-containerd > div {
+  /* background-color: #f1f1f1; */
+}
+
+.DecorMainPage {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  /* height: 100%; */
+  background-image: url(../../assets/decorbg.png);
+  background-size: cover;
+}
+
+@media only screen and (min-width: 1400px) {
+  .DecorMainPage {
+    padding-top: 3%;
+  }
+}
